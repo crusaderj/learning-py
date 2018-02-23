@@ -24,4 +24,4 @@ def findeven2(number):
 for ddd in bbb:
 #    print findeven(int(ddd))
     if findeven2(int(ddd)) == True:
-        print ddd
+        print (ddd)

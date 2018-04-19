@@ -20,11 +20,11 @@ print ("the random number is " + str(aa))
 bb = ''
 while (bb != aa):
 #        bb = int(input('guess a number again: '))
-	while bb is not int:
-		try:
-			bb = int(input("i need a number: "))
-			break
-		except ValueError:
-			print('please enter a valid number,')
-	print (bb)
+    while bb is not int:
+        try:
+            bb = int(input("i need a number: "))
+            break
+        except ValueError:
+            print('please enter a valid number,')
+    print (bb)
 print ("correct")
